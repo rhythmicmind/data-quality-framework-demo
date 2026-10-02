@@ -1,0 +1,21 @@
+{
+  "rows": 120,
+  "issues": 11,
+  "affected_rows": 10,
+  "unflagged_rows": 110,
+  "median_amount": 173.005,
+  "mad_amount": 32.47,
+  "outlier_threshold": 3.5,
+  "outlier_check_available": true,
+  "checks": {
+    "robust_amount_outlier": 5,
+    "duplicate_claim_id": 2,
+    "missing_patient_id": 1,
+    "invalid_date": 1,
+    "negative_amount": 1,
+    "invalid_amount": 1
+  },
+  "amount_psi": 2.006192975532123,
+  "added_columns": [],
+  "removed_columns": []
+}

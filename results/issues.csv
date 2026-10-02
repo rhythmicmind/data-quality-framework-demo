@@ -1,0 +1,12 @@
+row_id,claim_id,check,severity,recommendation
+0,CL0000,duplicate_claim_id,error,Review source records before merging or removal.
+1,CL0000,duplicate_claim_id,error,Review source records before merging or removal.
+2,CL0002,missing_patient_id,error,Verify against source; do not invent a replacement.
+3,CL0003,invalid_date,error,Verify service date format and source value.
+4,CL0004,negative_amount,error,Check whether adjustment/refund or incorrect value.
+4,CL0004,robust_amount_outlier,review,Review unusual amount; statistical anomaly is not proof of error.
+5,CL0005,invalid_amount,error,Verify numeric amount against source.
+6,CL0006,robust_amount_outlier,review,Review unusual amount; statistical anomaly is not proof of error.
+19,CL0019,robust_amount_outlier,review,Review unusual amount; statistical anomaly is not proof of error.
+42,CL0042,robust_amount_outlier,review,Review unusual amount; statistical anomaly is not proof of error.
+106,CL0106,robust_amount_outlier,review,Review unusual amount; statistical anomaly is not proof of error.
